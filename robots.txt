@@ -1,0 +1,1 @@
+User-agent: *Allow: /Sitemap: https://www.jmkriz.com/sitemap.xml
