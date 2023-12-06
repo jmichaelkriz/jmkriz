@@ -729,7 +729,7 @@ img {
 }
 
 .link--button:hover {
-  border: 1px solid var(--dim-grey);
+  border: 1px solid var(--charcoal);
   background-color: var(--black);
   box-shadow: 60px 0 10rem .5rem var(--lapis-lazuli), -60px 0 10rem .5rem var(--purple);
   color: var(--white);
@@ -745,6 +745,10 @@ img {
   font-size: 1.25rem;
 }
 
+.link--button.orange:hover {
+  border-color: var(--charcoal);
+}
+
 .link--button.yellow {
   border-color: var(--yellow);
   margin-bottom: 4rem;
@@ -752,7 +756,7 @@ img {
 }
 
 .link--button.yellow:hover {
-  border-color: var(--dim-grey);
+  border-color: var(--charcoal);
 }
 
 .link--button.purple {
@@ -762,7 +766,7 @@ img {
 }
 
 .link--button.purple:hover {
-  border-color: var(--dim-grey);
+  border-color: var(--charcoal);
 }
 
 .margin-bottom--4rem {
