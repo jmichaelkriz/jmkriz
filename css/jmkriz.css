@@ -990,6 +990,10 @@ img {
 }
 
 @media screen and (max-width: 479px) {
+  .form {
+    margin-top: 4rem;
+  }
+
   .wrapper--form {
     margin-top: -20px;
   }
@@ -1004,7 +1008,9 @@ img {
   }
 
   .grid--2col {
+    flex-direction: column;
     padding-top: 2rem;
+    display: flex;
   }
 
   .grid--2col.is-featured {
@@ -1014,6 +1020,10 @@ img {
 
   .grid--2col.is-about {
     padding-top: 0;
+  }
+
+  .grid--2col.flip {
+    flex-direction: column-reverse;
   }
 
   .wrapper--nav {
@@ -1033,8 +1043,8 @@ img {
   }
 
   .wrapper--main {
-    padding-left: .5rem;
-    padding-right: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .container--section.padding-top--4rem {
