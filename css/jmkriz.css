@@ -818,11 +818,16 @@ img {
 .wrapper--featured {
   width: 100%;
   aspect-ratio: 4 / 3;
-  border: 1px solid var(--dim-grey);
+  border: 1px solid var(--charcoal);
   border-radius: 1rem;
-  transition-property: border-color;
-  transition-duration: .2s;
+  transition: border-color .2s, box-shadow .2s;
+  position: relative;
   overflow: hidden;
+}
+
+.wrapper--featured:hover {
+  border-color: var(--black);
+  box-shadow: -20px 0 6rem -4rem var(--shamrock), 20px 0 6rem -1.5rem var(--lapis-lazuli);
 }
 
 .text--featured {
