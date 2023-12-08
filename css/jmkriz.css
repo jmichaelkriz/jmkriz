@@ -190,7 +190,7 @@ img {
   margin-bottom: 1.25rem;
 }
 
-.utility-page-wrap {
+.wrapper--password {
   width: 100vw;
   height: 100vh;
   max-height: 100%;
@@ -200,14 +200,14 @@ img {
   display: flex;
 }
 
-.utility-page-content {
+.container--password {
   width: 260px;
   text-align: center;
   flex-direction: column;
   display: flex;
 }
 
-.utility-page-form {
+.form--password {
   flex-direction: column;
   align-items: stretch;
   display: flex;
@@ -216,12 +216,13 @@ img {
 .wrapper--404 {
   height: 100vh;
   background-color: var(--charcoal);
+  background-image: linear-gradient(225deg, black, var(--charcoal) 85%);
   justify-content: center;
   align-items: center;
   display: flex;
 }
 
-.div-block-5 {
+.container--404 {
   text-align: center;
 }
 
