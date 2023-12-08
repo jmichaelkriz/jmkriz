@@ -941,6 +941,10 @@ img {
     width: 34rem;
   }
 
+  .text--service {
+    font-size: 1.375rem;
+  }
+
   .containter--service {
     margin-bottom: 1rem;
   }
