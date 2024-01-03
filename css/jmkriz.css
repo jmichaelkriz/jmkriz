@@ -960,6 +960,11 @@ img {
     margin-bottom: 4rem;
   }
 
+  .wrapper--page {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
   .grid--8col {
     grid-template-columns: 1fr 1fr;
   }
@@ -1089,6 +1094,11 @@ img {
     margin-top: 0;
   }
 
+  .wrapper--page {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
   .link--nav-logo {
     padding-left: 0;
   }
@@ -1106,6 +1116,11 @@ img {
   .form--field {
     border-color: var(--dim-grey);
     font-size: 1rem;
+  }
+
+  .wrapper--page {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .grid--2col {
