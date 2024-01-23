@@ -1123,6 +1123,10 @@ img {
     padding-bottom: 1.5rem;
   }
 
+  .grid--8col {
+    display: block;
+  }
+
   .grid--2col {
     flex-direction: column;
     padding-top: 2rem;
@@ -1130,6 +1134,8 @@ img {
   }
 
   .grid--2col.is-featured {
+    grid-column-gap: 0rem;
+    grid-row-gap: 0rem;
     margin-bottom: 0;
     padding-top: .5rem;
   }
@@ -1205,10 +1211,6 @@ img {
     font-size: .875rem;
   }
 
-  .arrow.portfolio {
-    display: none;
-  }
-
   .mask._100 {
     width: auto;
     padding-left: 0%;
@@ -1233,6 +1235,8 @@ img {
   .slide._1-4 {
     width: 100%;
     margin-right: 0%;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .h1-pay {
@@ -1240,10 +1244,6 @@ img {
     padding-bottom: 1rem;
     font-size: 1rem;
   }
-}
-
-#w-node-_6989b871-69e0-cbb7-82da-d9b6cab46728-fedcd880 {
-  grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
 #w-node-_4667100e-b2ed-c0c3-4507-fe08818da76c-fedcd880, #w-node-_4667100e-b2ed-c0c3-4507-fe08818da780-fedcd880, #w-node-_4667100e-b2ed-c0c3-4507-fe08818da794-fedcd880 {
@@ -1256,7 +1256,7 @@ img {
   grid-area: span 1 / span 8 / span 1 / span 8;
 }
 
-#w-node-_4667100e-b2ed-c0c3-4507-fe08818da7ba-fedcd880, #w-node-_4667100e-b2ed-c0c3-4507-fe08818da7ab-fedcd880 {
+#w-node-_4667100e-b2ed-c0c3-4507-fe08818da7ba-fedcd880, #w-node-_4667100e-b2ed-c0c3-4507-fe08818da7ab-fedcd880, #w-node-_6989b871-69e0-cbb7-82da-d9b6cab46728-fedcd880 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
