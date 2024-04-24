@@ -525,7 +525,6 @@ img {
 .text--hero {
   color: #fff;
   letter-spacing: .125rem;
-  pointer-events: none;
   font-size: 3.75rem;
   font-weight: 100;
   position: relative;
@@ -994,15 +993,11 @@ img {
   width: 42rem;
   height: 42rem;
   position: absolute;
-  top: 4rem;
+  top: 0%;
   bottom: auto;
   left: auto;
   right: 0%;
   overflow: hidden;
-}
-
-.wrapper--orbit.margin-padding--0 {
-  top: 0;
 }
 
 .wrapper--glow {
@@ -1068,7 +1063,6 @@ img {
 }
 
 .wrapper--3-4 {
-  aspect-ratio: 3 / 4;
   border: 1px solid var(--dim-grey);
   background-color: var(--charcoal);
   color: var(--white);
@@ -1127,7 +1121,6 @@ img {
 }
 
 .wrapper--1-1 {
-  aspect-ratio: 1;
   border: 1px solid var(--dim-grey);
   background-color: var(--charcoal);
   color: var(--white);
@@ -1158,16 +1151,6 @@ img {
   margin-bottom: 0;
   font-size: 1.5rem;
   line-height: 1;
-}
-
-.spline {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0%;
-  bottom: auto;
-  left: auto;
-  right: 0%;
 }
 
 @media screen and (max-width: 991px) {
@@ -1214,8 +1197,8 @@ img {
   }
 
   .container--nav {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .wrapper--nav-menu {
@@ -1314,7 +1297,6 @@ img {
     pointer-events: none;
     width: 100%;
     height: 100%;
-    margin-top: 0;
     top: 0%;
     bottom: 0%;
     left: 0%;
@@ -1342,12 +1324,6 @@ img {
 
   .wrapper--tabs {
     margin-top: 0;
-  }
-
-  .spline {
-    height: 30rem;
-    top: -9rem;
-    left: 17rem;
   }
 }
 
@@ -1377,11 +1353,6 @@ img {
   .h2--tabs {
     font-size: 1.5rem;
   }
-
-  .spline {
-    top: -10rem;
-    left: 11.5rem;
-  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1405,10 +1376,6 @@ img {
 
   .grid--8col {
     display: block;
-  }
-
-  .image--logo {
-    aspect-ratio: auto;
   }
 
   .grid--2col {
@@ -1555,14 +1522,8 @@ img {
     display: flex;
   }
 
-  .wrapper--1-1 {
+  .wrapper--1-1, .p--portfolio {
     margin-bottom: 2rem;
-  }
-
-  .spline {
-    height: 20rem;
-    top: -6rem;
-    left: 6.5rem;
   }
 }
 
@@ -1603,37 +1564,8 @@ img {
   grid-area: span 1 / span 3 / span 1 / span 3;
 }
 
-#w-node-f6f44975-1aee-6392-d5d3-ef5f4dc15c9d-3f3be7ba, #w-node-_6cb0c368-e712-22f7-980f-a27698df386d-3f3be7ba, #w-node-f4cc42e2-2244-cee9-7753-135548cdba2f-3f3be7ba, #w-node-f931d802-23e0-618e-36fb-dad649b88396-3f3be7ba, #w-node-a2748a66-5674-f66b-daac-86f8c5f7169c-3f3be7ba, #w-node-_6b1b1664-35d6-db92-7205-743d7321f1ad-3f3be7ba, #w-node-_0f5eff86-4584-8ffe-e869-4a1d1d75fe41-3f3be7ba, #w-node-_005ed76f-5784-23e7-b30d-29074ad2a8fc-3f3be7ba, #w-node-fd6b5209-ede8-bb18-1501-f14dd6c3507b-3f3be7ba, #w-node-_887c1b8d-5fd8-62a0-1fab-b78b2b0a9102-3f3be7ba, #w-node-a059a3ad-0050-1e42-de9d-2b7583da2005-3f3be7ba, #w-node-ea3af0e6-cb10-de3f-147e-0eca825d0e47-63fab2bd {
+#w-node-f6f44975-1aee-6392-d5d3-ef5f4dc15c9d-3f3be7ba, #w-node-_6cb0c368-e712-22f7-980f-a27698df386d-3f3be7ba, #w-node-f4cc42e2-2244-cee9-7753-135548cdba2f-3f3be7ba, #w-node-f931d802-23e0-618e-36fb-dad649b88396-3f3be7ba, #w-node-a2748a66-5674-f66b-daac-86f8c5f7169c-3f3be7ba, #w-node-_6b1b1664-35d6-db92-7205-743d7321f1ad-3f3be7ba, #w-node-_0f5eff86-4584-8ffe-e869-4a1d1d75fe41-3f3be7ba, #w-node-_005ed76f-5784-23e7-b30d-29074ad2a8fc-3f3be7ba, #w-node-fd6b5209-ede8-bb18-1501-f14dd6c3507b-3f3be7ba, #w-node-_887c1b8d-5fd8-62a0-1fab-b78b2b0a9102-3f3be7ba, #w-node-a059a3ad-0050-1e42-de9d-2b7583da2005-3f3be7ba {
   grid-area: span 1 / span 1 / span 1 / span 1;
-}
-
-#w-node-_4667100e-b2ed-c0c3-4507-fe08818da76c-63fab2bd {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-  align-self: start;
-  justify-self: center;
-}
-
-#w-node-_517730a5-8f9d-147e-743e-d15a388d0d70-63fab2bd {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-}
-
-#w-node-_4667100e-b2ed-c0c3-4507-fe08818da780-63fab2bd, #w-node-_4667100e-b2ed-c0c3-4507-fe08818da794-63fab2bd {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-  align-self: start;
-  justify-self: center;
-}
-
-#w-node-_4667100e-b2ed-c0c3-4507-fe08818da7a5-63fab2bd, #w-node-_07a1be26-4c99-8d90-f5a0-01961925579b-63fab2bd {
-  grid-area: span 1 / span 8 / span 1 / span 8;
-}
-
-#w-node-_4667100e-b2ed-c0c3-4507-fe08818da7ba-63fab2bd, #w-node-_4667100e-b2ed-c0c3-4507-fe08818da7ab-63fab2bd, #w-node-_9483c109-85f1-fe1b-e1c8-ac6e61fc777d-63fab2bd, #w-node-_6989b871-69e0-cbb7-82da-d9b6cab46728-63fab2bd {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-}
-
-#w-node-_5db1e37d-8368-569c-5549-2492da5078fa-63fab2bd {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-  justify-self: center;
 }
 
 
