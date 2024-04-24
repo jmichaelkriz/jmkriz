@@ -1107,6 +1107,7 @@ img {
 .wrapper--tab-menu {
   text-align: right;
   margin-bottom: 2rem;
+  display: block;
 }
 
 .tabs-content {
