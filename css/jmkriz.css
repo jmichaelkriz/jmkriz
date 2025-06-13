@@ -1122,7 +1122,7 @@ img {
 .wrapper--1-1:hover {
   border: 1px solid var(--black);
   background-color: var(--black);
-  box-shadow: 2rem 0rem 3rem -.5rem var(--lapis-lazuli), -2rem 0rem 3rem -.5rem var(--purple);
+  box-shadow: -1rem 0rem 3rem -.5rem var(--lapis-lazuli), 1rem 0rem 3rem -.5rem var(--purple);
   color: var(--white);
 }
 
