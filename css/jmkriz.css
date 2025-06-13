@@ -603,6 +603,10 @@ img {
   position: relative;
 }
 
+.containter--service:hover {
+  text-decoration: underline;
+}
+
 .grid--service {
   grid-column-gap: var(--0);
   grid-row-gap: 1.5rem;
