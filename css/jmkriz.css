@@ -1060,7 +1060,7 @@ img {
 .mix:hover {
   border: 1px solid var(--black);
   background-color: var(--black);
-  box-shadow: 10px 0 10rem -.5rem var(--lapis-lazuli), -10px 0 10rem -.5rem var(--purple);
+  box-shadow: 1rem 0 3rem -.5rem var(--lapis-lazuli), -1rem 0 3rem -.5rem var(--purple);
   color: var(--white);
 }
 
