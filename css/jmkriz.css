@@ -189,11 +189,6 @@ img {
   height: 100vh;
 }
 
-.recaptcha {
-  margin-top: .5rem;
-  margin-bottom: 1.25rem;
-}
-
 .wrapper--password {
   justify-content: center;
   align-items: center;
@@ -1127,7 +1122,7 @@ img {
 .wrapper--1-1:hover {
   border: 1px solid var(--black);
   background-color: var(--black);
-  box-shadow: 10px 0 10rem -.5rem var(--lapis-lazuli), -10px 0 10rem -.5rem var(--purple);
+  box-shadow: 2rem 0rem 3rem -.5rem var(--lapis-lazuli), -2rem 0rem 3rem -.5rem var(--purple);
   color: var(--white);
 }
 
@@ -1255,7 +1250,7 @@ img {
     height: 2rem;
   }
 
-  .p--intro._50, .p--intro.margin-bottom--4rem {
+  .p--intro._50 {
     width: 100%;
   }
 
@@ -1465,10 +1460,6 @@ img {
   .mask._100 {
     width: auto;
     padding-left: 0%;
-  }
-
-  .p--intro.margin-bottom--4rem {
-    margin-bottom: 1rem;
   }
 
   .text--tag {
